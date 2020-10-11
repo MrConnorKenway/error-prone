@@ -241,6 +241,7 @@ import com.google.errorprone.bugpatterns.OverrideThrowableToString;
 import com.google.errorprone.bugpatterns.Overrides;
 import com.google.errorprone.bugpatterns.PackageInfo;
 import com.google.errorprone.bugpatterns.PackageLocation;
+import com.google.errorprone.bugpatterns.ParallelLambdaInStaticBlock;
 import com.google.errorprone.bugpatterns.ParameterComment;
 import com.google.errorprone.bugpatterns.ParameterName;
 import com.google.errorprone.bugpatterns.ParametersButNotParameterized;
@@ -811,6 +812,7 @@ public class BuiltInCheckerSuppliers {
           OverrideThrowableToString.class,
           Overrides.class,
           OverridesGuiceInjectableMethod.class,
+          ParallelLambdaInStaticBlock.class,
           ParameterName.class,
           PreconditionsCheckNotNullRepeated.class,
           PrimitiveAtomicReference.class,
