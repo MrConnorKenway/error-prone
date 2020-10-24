@@ -201,6 +201,7 @@ import com.google.errorprone.bugpatterns.MixedMutabilityReturnType;
 import com.google.errorprone.bugpatterns.MockitoUsage;
 import com.google.errorprone.bugpatterns.ModifiedButNotUsed;
 import com.google.errorprone.bugpatterns.ModifyCollectionInEnhancedForLoop;
+import com.google.errorprone.bugpatterns.ModifyCollectionInForEachMethod;
 import com.google.errorprone.bugpatterns.ModifySourceCollectionInStream;
 import com.google.errorprone.bugpatterns.ModifyingCollectionWithItself;
 import com.google.errorprone.bugpatterns.MultiVariableDeclaration;
@@ -788,6 +789,7 @@ public class BuiltInCheckerSuppliers {
           MixedMutabilityReturnType.class,
           ModifiedButNotUsed.class,
           ModifyCollectionInEnhancedForLoop.class,
+          ModifyCollectionInForEachMethod.class,
           ModifySourceCollectionInStream.class,
           MultipleParallelOrSequentialCalls.class,
           MultipleUnaryOperatorsInMethodCall.class,
