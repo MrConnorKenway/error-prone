@@ -336,6 +336,7 @@ import com.google.errorprone.bugpatterns.UnnecessaryTypeArgument;
 import com.google.errorprone.bugpatterns.UnsafeFinalization;
 import com.google.errorprone.bugpatterns.UnsafeLocaleUsage;
 import com.google.errorprone.bugpatterns.UnsafeReflectiveConstructionCast;
+import com.google.errorprone.bugpatterns.UnsynchronizedCollectionModification;
 import com.google.errorprone.bugpatterns.UnsynchronizedOverridesSynchronized;
 import com.google.errorprone.bugpatterns.UnusedAnonymousClass;
 import com.google.errorprone.bugpatterns.UnusedCollectionModifiedInPlace;
@@ -863,6 +864,7 @@ public class BuiltInCheckerSuppliers {
           UnnecessaryParentheses.class,
           UnsafeFinalization.class,
           UnsafeReflectiveConstructionCast.class,
+          UnsynchronizedCollectionModification.class,
           UnsynchronizedOverridesSynchronized.class,
           UnusedMethod.class,
           UnusedNestedClass.class,
